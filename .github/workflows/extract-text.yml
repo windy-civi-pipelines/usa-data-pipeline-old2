@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run text extraction action
-        uses: windy-civi/opencivicdata-blockchain-transformer/actions/extract@main
+        uses: windy-civi/toolkit/actions/extract@main
         with:
           state: usa # ⚠️ UPDATE THIS: Change to your state code (e.g., wy, usa, il, tx)
           github-token: ${{ secrets.GITHUB_TOKEN }}
