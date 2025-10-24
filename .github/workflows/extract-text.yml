@@ -1,9 +1,9 @@
 name: Text Extraction from Bills
 
 on:
-  schedule:
-    - cron: "0 4 * * *" # Daily at 4 AM UTC (adjust as needed)
-  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 4 * * *" # Daily at 4 AM UTC (adjust as needed)
+  # workflow_dispatch:
 
 jobs:
   extract-text:
